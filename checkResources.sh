@@ -1,5 +1,4 @@
 #!/bin/bash
-# This is code developed to be used just by me. 
 
 # Set your AWS region
 regions=$(aws ec2 describe-regions --query 'Regions[].RegionName' --output text)
